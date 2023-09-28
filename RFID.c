@@ -63,6 +63,7 @@ void loop() {
       digitalWrite(led_a, HIGH);
       Serial.println("Acesso Permitido!");
       delay(10000);
+      cont = 0;
    }else{
       cont = cont + 1;
       Serial.print("Cartão inválido! Tentativa: ");
