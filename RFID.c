@@ -6,7 +6,8 @@
 #define PINO_SS 9
 #define PINO_RST 8
 
-//O led_buzzer é o led da placa usado para simular o funcionamento de um buzzer para alertar o bloqueio do sistema
+//O led_buzzer é o led da placa usado para simular o funcionamento de um
+//buzzer para alertar o bloqueio do sistema
 #define led_buzzer 13
 //O led_n é o led usado para acessos negados, alerta e estado de espera.
 #define led_n 7
