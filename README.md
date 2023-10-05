@@ -1,1 +1,4 @@
 # Projetos_IoT
+
+Trabalho dedicado a implementação do módulo RFID com IoT, de modo a testar o utilização de tags de acesso. 
+No projeto referente a segunda unidade, foi utilizado módulo RFID, protoboard, um Arduino MEGA, dois leds (vermelho e verde), simulando acesso permitido e acesso negado, e duas tags, uma sendo configurada como autorizada e outra fora do cadastro, fios conectores e cabo USB para conectar a placa ao computador e programar a placa com o código que utilizamos no aplicativo do Arduino. No código, foi implementado o cadastro de uma tag que quando utilizada acende o led verde durante alguns segundos e exibe no monitor serial "Acesso permitido", já a tag não cadastrada faz o led vermelho acender por alguns segundos, contando a quantidade de tentativas incorretas para quando atingir 5 vezes ser bloqueado.
